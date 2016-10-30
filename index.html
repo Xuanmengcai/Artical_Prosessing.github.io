@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<input type="search" id="mySearch" placeholder="what do you want to search?">
+<input type="text" id="myText" value="Some text...">
 
 <button onclick="myFunction()">Search</button>
 
@@ -10,7 +10,7 @@
 
 <script>
 function myFunction() {
-    var x = document.getElementById("mySearch").placeholder;
+    var x = document.getElementById("myText").value;
     document.getElementById("demo").innerHTML = x;
 }
 </script>
